@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ratlankiai/padangos</title>
+</head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css" href="wheels.css">
+<body>
+	<div class="container">
+		<img src="https://tiresandparts.net/wp-content/uploads/Food-waste-as-tires.png" class="img-rounded size" alt="sorry">
+		<div class="row menu">
+			<a class="col-sm-6 col-md-3 col-lg-2" >Pradžia</a>
+			<a class="col-sm-6 col-md-3 col-lg-2" >Prekės</a>
+			<a class="col-sm-6 col-md-3 col-lg-2" >Paslaugos</a>
+			<a class="col-sm-6 col-md-3 col-lg-2" >Kontaktai</a>
+		</div>
+		<div class="row">
+			<div class="col-md-2 ">
+				<label class="par"> Padangos aukštis mm </label>
+
+
+				<input id="parameter_a" type="text" class="form-control mb-2 result1" value="">
+			</div>
+			<div class="col-md-2 ">
+				<label class="par">Ratlankio skersmuo "</label>
+				<input id="parameter_b" type="text" class="form-control mb-2 result1" value="">
+			</div>
+			<div class="col-md-2 ">
+				<label class="par">Arkos spindulys mm</label>
+				<input id="parameter_c" type="text" class="form-control mb-2 result1" value="">
+			</div>
+			<div id="result" class="col-md-6 block text-center result1 rezult">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<center>
+					<button class="button button1" onclick="check_interval()">Skaičiuoti</button>
+					<button class="button button1" onclick="valyti()">Valyti</button>
+				</center>
+			</div>
+		</div>
+		<div class="footer" ><p>Visos teisės saugomos ©</p>
+			
+
+		</div>
+
+	</div>
+	<script type="text/javascript" src="wheels.js"></script>
+	
+
+</body>
+</html>
